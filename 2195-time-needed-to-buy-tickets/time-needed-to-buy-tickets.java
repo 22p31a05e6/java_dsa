@@ -1,4 +1,5 @@
 class Solution {
+    //queue
     public int timeRequiredToBuy(int[] tickets, int k) {
       Queue<Integer> qu = new LinkedList<>();
       for(int i =0;i<tickets.length;i++){
