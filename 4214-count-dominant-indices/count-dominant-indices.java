@@ -15,7 +15,7 @@ class Solution {
             int rightCount = n - i - 1;
 
             if(nums[i] > (double)sum / rightCount) {
-                count++;
+                count++;//sum
             }
         }
 
